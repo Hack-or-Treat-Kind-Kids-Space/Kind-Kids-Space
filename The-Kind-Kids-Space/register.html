@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-framework="react">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -36,16 +36,13 @@
         <a style="text-align:right;" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a style="text-align:right;" class="nav-link" href="../The-Kind-Kids-Space/chat.html">Chat <span class="sr-only">(current)</span></a>
+        <a style="text-align:right;" class="nav-link" href="chat.html">Chat <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a style="text-align:right;" class="nav-link" href="../The-Kind-Kids-Space/login.html">Login</a>
+        <a style="text-align:right;" class="nav-link" href="login.html">Login</a>
       </li>
       <li class="nav-item">
         <a style="text-align:right;" class="nav-link" href="register.html">Register</a>
-      </li>
-      <li class="nav-item">
-        <a style="text-align:right;" class="nav-link" href="../The-KindKids-Space/qr-scanner.html">QR Scanner</a>
       </li>
     </ul>
   </div>
@@ -58,27 +55,27 @@
     <form>
       <div class="form-group col-md-6">
           <label for="inputUsername">Username</label>
-          <input type="username" class="form-control" id="inputUsername" placeholder="Username">
+          <input type="username" class="form-control" id="inputUsername" placeholder="Username" required>
         </div>
         <div class="form-group col-md-6">
           <label for="inputPassword4">Password</label>
-          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
         </div>
         <div class="form-group col-md-6">
           <label for="inputEmail4">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
         </div>
         <div class="form-group col-md-6">
         <label for="inputFirstName">First name</label>
-        <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
+        <input type="text" class="form-control" id="inputFirstName" placeholder="First name" required>
         </div>
         <div class="form-group col-md-6">
         <label for="inputLastName">Last name</label>
-        <input type="text" class="form-control" id="inputLastName" placeholder="Last name">
+        <input type="text" class="form-control" id="inputLastName" placeholder="Last name" required>
         </div>
       <div class="form-group col-md-6">
         <label for="inputAddress">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
       </div>
       <div class="form-group col-md-6">
         <label for="inputAddress2">Address 2</label>
@@ -86,7 +83,7 @@
       </div>
         <div class="form-group col-md-6">
           <label for="inputCity">City</label>
-          <input type="text" class="form-control" id="inputCity" placeholder="City">
+          <input type="text" class="form-control" id="inputCity" placeholder="City" required>
         </div>
         <div class="form-group col-md-6">
           <label for="inputState">State</label>
@@ -153,15 +150,15 @@
         </div>
         <div class="form-group col-md-6">
           <label for="inputZip">Zip code</label>
-          <input type="text" pattern="[0-9]{5}" class="form-control" id="inputZip" placeholder="Zip code">
+          <input type="text" pattern="[0-9]{5}" class="form-control" id="inputZip" placeholder="Zip code" required>
         </div>
         <div class="form-group col-md-6">
           <label for="inputBirthday">Birthday</label>
-          <input type="date" class="form-control" id="inputBirthday">
+          <input type="date" class="form-control" id="inputBirthday" required>
         </div>
       <div class="form-group col-md-6">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="parentCheck">
+          <input class="form-check-input" type="checkbox" id="parentCheck" required>
           <label class="form-check-label" for="parentCheck">
             Parental consent if under the age of 13
             <div class="form-group col-md-2">

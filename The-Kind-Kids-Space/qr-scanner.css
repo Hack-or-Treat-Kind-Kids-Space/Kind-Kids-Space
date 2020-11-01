@@ -3,13 +3,14 @@ body {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  background: url('halloween-graveyard.jpg');
+  background: url('halloween-graveyard.jpg') no-repeat;
+  background-size: cover;
   display: flex;
 }
 
 .main {
-  background: white;
-  opacity: 0.7;
+  background: #FFFFFF;
+  opacity: 0.8;
   width: 300px;
   height: 400px;
   text-align: center;

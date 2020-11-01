@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jimp/0.16.1/jimp.min.js"></script>
+<script src="html5-qrcode.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script>
+   $(document).on("keypress", "input", function(e){
+        if(e.which == 13){
+            var inputVal = $(this).val();
+            alert("You've entered: " + inputVal);
+        }
+    });
+</script>
+  </head>
+  <body>
+    <h1>Kind Kids Space</h1>
+    <h2>Where You Get a Reward for Your Kindness</h2>
+    <br>
+    <div class="img-div">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTH_N3rbZ8Ikdtwzn4RU2h14yhaffWKJ3MZYA&usqp=CAU">
+    </div>
+    <div class="buttons">
+      <button id="qr-button" type="button" onclick="document.location='qr-scanner.html'">Qr Code Scanner</button>
+      <div class="code">
+        <form action="url='survey.html'">
+          <input type="text" id="code" name="code">
+            <button id="myBtn" type="submit">
+              <a href="#survey">
+                Submit
+              </a>
+            </button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,3 +1,29 @@
+body {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background: url('halloween-graveyard.jpg');
+  display: flex;
+}
+
+.main {
+  background: white;
+  opacity: 0.7;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+
+#sign-up {
+  margin-top: 2px;
+}
+
+#qr-link {
+  margin-top: 200px;
+}
+
 button {
-border-radius: 50px;
+  align-text: center;
+  border-radius: 25px;
 }

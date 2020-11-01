@@ -7,7 +7,7 @@ A user is issued a unique number that is placed on a printable coin template upo
 ## <strong>The Future of Kind Kids Space</strong>
 Proposed Future Functionality:
 <ul><li>Chat Room for Kind Kids
-  <li>Add Database Functionality
+  <li>Connect front-end to back-end database
   <li>Games for Kind Kids
     <li>Contests for Kind Kids
       </ul>

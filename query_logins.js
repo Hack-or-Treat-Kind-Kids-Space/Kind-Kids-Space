@@ -4,7 +4,7 @@ fetch("https://a4ac4fa4-adfa-46fe-a28b-d9522c5e475c-us-east1.apps.astra.datastax
     "Accept": "application/json",
     "Content-Type": "application/json"
   },
-  "body": "{\"columnNames\":[\"user_name\"],\"filters\":[{\"value\":[\"checkUsername\"],\"columnName\":\"user_name\",\"operator\":\"eq\"}],\"orderBy\":{\"column\":\"user_id\",\"order\":\"ASC\"}}"
+  "body": "{\"columnNames\":[\"user_id\",\"user_name\",\"password\"],\"filters\":[{\"value\":[\"checkUsername\"],\"columnName\":\"user_name\",\"operator\":\"eq\"},{\"value\":[\"checkPassword4\"],\"columnName\":\"password\",\"operator\":\"eq\"}],\"orderBy\":{\"column\":\"user_id\",\"order\":\"ASC\"}}"
 })
 .then(response => {
   console.log(response);
